@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0D0c0c;
+  color: white;
+}
+html{
+  overflow-x: hidden;
+}
+.inputBox{
+  width:100% ;
+  background-color: #141414;
+  border-radius: 5px; 
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.inputBox input{
+   float: 1;
+   padding: 10px;
+   border:none ; 
+   outline: none;
+   background-color: transparent;
+   color: #fff;
+   font-size: 16px;  
+   
+}
+.btnBlue{
+  background-color: #0e86ad;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
